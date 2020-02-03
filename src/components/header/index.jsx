@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className={classes.profileContent}>
         <h1>Ryan Fitzgerald</h1>
-        <h2>Full-Stack Develop based in Toronto, Canada.</h2>
+        <h2>Full-Stack Developer based in Toronto, Canada.</h2>
         <Socials />
       </div>
     </div>
