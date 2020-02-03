@@ -47,7 +47,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: socialSrc,
+          content: `https://ryanfitzgerald.ca${socialSrc}`,
         },
         {
           property: `og:description`,
