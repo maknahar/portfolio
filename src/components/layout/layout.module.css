@@ -23,3 +23,23 @@
   opacity: 0.1;
   height: 1500px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .blobMain {
+    opacity: 0.3;
+  }
+
+  .blobSecondary {
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blobMain {
+    display: none;
+  }
+
+  .blobSecondary {
+    opacity: 0.5;
+  }
+}

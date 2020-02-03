@@ -29,3 +29,20 @@
   font-weight: 400;
   margin: 0 0 30px;
 }
+
+@media only screen and (max-width: 768px) {
+  .headerWrapper {
+    display: block;
+  }
+
+  .profileWrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .profileContent {
+    display: block;
+    margin: 25px 0 0;
+    width: 100%;
+  }
+}
