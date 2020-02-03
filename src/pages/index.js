@@ -16,8 +16,8 @@ const IndexPage = () => (
         scaling web applications and services in various domains.
       </p>
       <p>
-        I'm also passionate about open source, working in high impact
-        environments with frequent shipping of code, and helping growing
+        I'm also passionate about open source contributions, working in high
+        impact environments with frequent deployments, and helping growing
         development teams build great products.
       </p>
     </Section>
