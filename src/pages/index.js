@@ -23,9 +23,14 @@ const IndexPage = () => (
     </Section>
     <Section id="experience" title="Experience">
       <Link
+        title="Resolver"
+        link="https://www.resolver.com/"
+        desc="Full-Stack Developer, March 2020 - Present"
+      />  
+      <Link
         title="Ambyint"
         link="https://ambyint.com"
-        desc="Full-Stack Developer, September 2018 - Present"
+        desc="Full-Stack Developer, September 2018 - March 2020"
       />
       <Link
         title="Bank of Canada"
@@ -68,7 +73,7 @@ const IndexPage = () => (
     <Section id="skills" title="Skills">
       <Link
         title="Languages & Frameworks"
-        desc="JavaScript (ES6+), Python, React, Node.js, Express.js, Ruby on Rails, PHP"
+        desc="JavaScript (ES6+), React, Node.js, Express.js, Golang, Ruby on Rails, PHP"
       />
       <Link title="Databases" desc="MongoDB, PostreSQL, MySQL" />
       <Link
