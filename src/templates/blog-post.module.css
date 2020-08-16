@@ -1,0 +1,44 @@
+.blogTitle h1 {
+  color: #1f2933;
+  font-size: 45px;
+  margin: 0;
+}
+
+.blogTitle p {
+  color: #8b8996;
+  font-size: 14px;
+}
+
+.blogContent {
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.blogContent p,
+.blogContent ul,
+.blogContent ol {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.blogContent h1,
+.blogContent h2,
+.blogContent h3,
+.blogContent h4 {
+  color: #161e2f;
+  line-height: 1.2;
+  margin: 30px 0;
+}
+
+.blogContent pre {
+  margin-bottom: 30px;
+}
+
+.blogContent a {
+  color: #1f2933;
+  font-weight: 700;
+}
+
+.blogContent a:hover {
+  color: #3997dc;
+}

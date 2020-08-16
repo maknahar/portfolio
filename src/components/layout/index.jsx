@@ -7,10 +7,10 @@ import classes from "./layout.module.css";
 import "./normalize.css";
 import "./global.css";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, small = false }) => {
   return (
     <div>
-      <Container>{children}</Container>
+      <Container small={small}>{children}</Container>
       <div className={classes.blobMain}>
         <svg
           width="600"

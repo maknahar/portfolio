@@ -10,11 +10,24 @@
 .profilePicture {
   border-radius: 50%;
   overflow: hidden;
+  transition: 0.2s;
   width: 150px;
+}
+
+.profilePicture:hover {
+  transform: scale(1.05);
 }
 
 .profileContent {
   margin: 10px 0 0 50px;
+}
+
+.profileContent a {
+  text-decoration: none;
+}
+
+.profileContent a:hover {
+  color: #3997dc;
 }
 
 .profileContent h1 {
@@ -22,6 +35,10 @@
   font-size: 45px;
   letter-spacing: 2px;
   margin: 0;
+}
+
+.profileContent h1:hover {
+  color: #3997dc;
 }
 
 .profileContent h2 {

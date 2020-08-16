@@ -1,0 +1,33 @@
+.postNav {
+  margin-top: 50px;
+}
+
+.postNavList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.postNavItem {
+  border-radius: 4px;
+  text-align: center;
+}
+
+.postNavItem a {
+  border: 1px solid #cbd2d9;
+  color: #52606d;
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.postNavItem a:hover {
+  border-color: #3586ea;
+}
+
+.arrow {
+  font-size: 18px;
+  font-weight: 700;
+}

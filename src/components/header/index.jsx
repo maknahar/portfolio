@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 
 import imgSrc from "../../images/picture.jpg";
@@ -9,14 +10,18 @@ const Header = () => {
   return (
     <div className={classes.headerWrapper}>
       <div className={classes.profileWrapper}>
-        <img
-          className={classes.profilePicture}
-          src={imgSrc}
-          alt="Ryan Fitzgerald"
-        />
+        <Link to="/">
+          <img
+            className={classes.profilePicture}
+            src={imgSrc}
+            alt="Ryan Fitzgerald"
+          />
+        </Link>
       </div>
       <div className={classes.profileContent}>
-        <h1>Ryan Fitzgerald</h1>
+        <Link to="/">
+          <h1>Ryan Fitzgerald</h1>
+        </Link>
         <h2>Full-Stack Developer based in Toronto, Canada.</h2>
         <Socials />
       </div>

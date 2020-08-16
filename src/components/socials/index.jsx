@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 
 import classes from "./socials.module.css";
@@ -65,6 +66,11 @@ const Socials = () => {
             </svg>
           </a>
         </li>
+        {/* <li className={classes.item}>
+          <Link className={classes.blogLink} to="/blog">
+            BLOG
+          </Link>
+        </li> */}
       </ul>
     </div>
   );
