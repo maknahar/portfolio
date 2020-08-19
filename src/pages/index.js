@@ -27,6 +27,16 @@ const IndexPage = ({ data }) => {
       </Section>
       <Section id="projects" title="Projects">
         <Link
+          title="ChromeExtensionKit"
+          link="https://chromeextensionkit.com/?ref=portfolio"
+          desc="Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates"
+        />
+        <Link
+          title="GamePressKit"
+          link="https://gamepresskit.com"
+          desc="All-in-one tool to build and manage press kits for games with no code required"
+        />
+        <Link
           title="Pivalink"
           link="https://pivalink.com"
           desc="Tool to create microlanding pages that can be easily updated and customized to fit any brand"
@@ -45,11 +55,6 @@ const IndexPage = ({ data }) => {
           title="Dev Portfolio"
           link="https://github.com/RyanFitzgerald/devportfolio"
           desc="An open source and customizable single-page personal portfolio template for developers"
-        />
-        <Link
-          title="Day Counter"
-          link="https://chrome.google.com/webstore/detail/day-counter-new-tab-page/popaiegponeiefbiddhmaphpbdjoegff?hl=en"
-          desc="Chrome extension to track days until or since life events with over 5k active users"
         />
       </Section>
       <Section id="blog-posts" title="Blog Posts">
@@ -79,25 +84,25 @@ const IndexPage = ({ data }) => {
       </Section>
       <Section id="experience" title="Experience">
         <Link
+          title="Resolver"
+          link="https://www.resolver.com/"
+          desc="Full-Stack Developer, March 2020 - Present"
+        />
+        <Link
           title="Ambyint"
           link="https://ambyint.com"
-          desc="Full-Stack Developer, September 2018 - Present"
+          desc="Full-Stack Developer, September 2018 - March 2020"
         />
         <Link
           title="Bank of Canada"
           link="https://bankofcanada.ca"
-          desc="Full-Stack Developer, January 2018 - September 2018"
-        />
-        <Link
-          title="Bank of Canada"
-          link="https://bankofcanada.ca"
-          desc="Full-Stack Developer (Co-op), May 2015 - August 2017"
+          desc="Full-Stack Developer, May 2015 - September 2018"
         />
       </Section>
       <Section id="skills" title="Skills">
         <Link
           title="Languages & Frameworks"
-          desc="JavaScript (ES6+), Python, React, Node.js, Express.js, Ruby on Rails, PHP"
+          desc="JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP"
         />
         <Link title="Databases" desc="MongoDB, PostreSQL, MySQL" />
         <Link
