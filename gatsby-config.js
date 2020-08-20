@@ -3,6 +3,7 @@ module.exports = {
     title: `Full-Stack Developer`,
     description: `Full-Stack Developer based in Toronto, Ontario, Canada.`,
     author: `@RyanAFitzgerald`,
+    siteUrl: `https://ryanfitzgerald.ca`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
