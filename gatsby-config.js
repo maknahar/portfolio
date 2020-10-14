@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://rfitz.io',
     blogEnabled: true,
     name: 'Ryan Fitzgerald',
     title: `Ryan Fitzgerald | Full-Stack Developer`,
