@@ -1,7 +1,7 @@
 ---
 title: Error Tracking in Chrome Extensions
-date: "2020-09-20T12:00:00.00Z"
-description: "How to Track and Fix Errors that Occur in Chrome Extensions"
+date: '2020-09-20T12:00:00.00Z'
+description: 'How to Track and Fix Errors that Occur in Chrome Extensions'
 ---
 
 _Note: I originally published this article on [ChromeExtensionKit](https://ChromeExtensionKit.com)._
@@ -44,7 +44,7 @@ Next, I'm going to choose **Browser Javascript** as the project type. If your ex
 And the corresponding `init` function looking something like:
 
 ```js
-Sentry.init({ dsn: "my-sentry-dsn-here" });
+Sentry.init({ dsn: 'my-sentry-dsn-here' });
 ```
 
 There are 2 ways we can actually add this to our extension. The first, and easiest way, is if your extension has it's own HTML page (i.e. new tab, popup, etc) which allows you to simply add the above script tag and to init the script via your own JS file. The second option is if your extension runs in the background, in which case you would need to dynamically inject the above script tag and init it afterwards, most likely via background scripts.
@@ -102,7 +102,7 @@ And finally, the `scripts.js` file will look like (init for Sentry and our exten
 
 ```js
 // Init sentry
-Sentry.init({ dsn: "my-dsn-here" });
+Sentry.init({ dsn: 'my-dsn-here' });
 
 // Call a random, undefined function. This will cause an error
 myUndefinedFunction();
@@ -134,4 +134,4 @@ Another point worth mentioning is the inclusion of the Sentry library via the CD
 
 I hope this provided you with a basic introduction to error handling in the Chrome Extension environment so you can be confident in the future that your extensions are running smoothly for all users.
 
-As always, if you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/ryanafitzgerald) and I'll do my best to help out!
+As always, if you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/rfitzio) and I'll do my best to help out!

@@ -1,45 +1,48 @@
-import { graphql } from "gatsby";
-import moment from "moment";
-import React from "react";
+import { graphql } from 'gatsby';
+import moment from 'moment';
+import React from 'react';
 
-import Header from "../components/header";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Header from '../components/header';
+import Layout from '../components/layout';
 
-import classes from "./blog-post.module.css";
+const classes = {
+  wrapper: 'mt-16 blog-content',
+  title: 'mt-16 text-4xl text-gray-900 font-bold',
+  date: 'text-gray-600 font-light',
+};
 
-const BlogPostTemplate = ({ data, pageContext }) => {
+const BlogPost = ({ data }) => {
   const post = data.markdownRemark;
 
   return (
-    <Layout small={true}>
-      <Header />
-      <SEO title={`${post.frontmatter.title} | Ryan Fitzgerald`} />
-      <div>
-        <article>
-          <div className={classes.blogTitle}>
-            <h1>{post.frontmatter.title}</h1>
-            <p>
-              Posted on {moment(post.frontmatter.date).format("MMMM D, YYYY")}
-            </p>
-          </div>
-          <section
-            className={classes.blogContent}
-            dangerouslySetInnerHTML={{ __html: post.html }}
-          />
-        </article>
-      </div>
+    <Layout>
+      <Header metadata={data.site.siteMetadata} />
+      <h1 className={classes.title}>{post.frontmatter.title}</h1>
+      <p className={classes.date}>
+        Posted on {moment(post.frontmatter.date).format('MMMM D, YYYY')}
+      </p>
+      <div
+        className={classes.wrapper}
+        dangerouslySetInnerHTML={{ __html: post.html }}
+      />
     </Layout>
   );
 };
 
-export default BlogPostTemplate;
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
+        blogEnabled
+        name
         title
+        description
+        about
+        author
+        github
+        linkedin
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

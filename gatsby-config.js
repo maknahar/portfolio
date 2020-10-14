@@ -1,9 +1,84 @@
 module.exports = {
   siteMetadata: {
-    title: `Full-Stack Developer`,
-    description: `Full-Stack Developer based in Toronto, Ontario, Canada.`,
-    author: `@RyanAFitzgerald`,
-    siteUrl: `https://ryanfitzgerald.ca`,
+    blogEnabled: true,
+    name: 'Ryan Fitzgerald',
+    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    description: `Full-Stack Developer based in Toronto, Canada.`,
+    about: `I'm a motivated full-stack engineer who has experience building and scaling web applications and services in various domains. I'm also passionate about open source contributions, working in high impact environments, and helping growing development teams build great products.`,
+    author: `@rfitzio`,
+    github: `https://github.com/ryanfitzgerald`,
+    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    projects: [
+      {
+        name: 'ChromeExtensionKit',
+        description:
+          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+        link: 'https://chromeextensionkit.com/?ref=portfolio',
+      },
+      {
+        name: 'GamePressKit',
+        description:
+          'All-in-one tool to build and manage press kits for games with no code required',
+        link: 'https://gamepresskit.com/',
+      },
+      {
+        name: 'Pivalink',
+        description:
+          'Tool to create microlanding pages that can be easily updated and customized to fit any brand (Acquired)',
+        link: 'https://pivalink.com/',
+      },
+      {
+        name: 'Coursefacts',
+        description:
+          'A platform where students can read and write university / college course reviews anonymously',
+        link: 'https://coursefacts.com/',
+      },
+      {
+        name: 'Dev Blog',
+        description:
+          'An open-source and minimal personal blog template for developers built with Gatsby and React',
+        link: 'hhttps://github.com/RyanFitzgerald/devblog',
+      },
+      {
+        name: 'Dev Portfolio',
+        description:
+          'An open source and customizable single-page personal portfolio template for developers',
+        link: 'https://github.com/RyanFitzgerald/devportfolio',
+      },
+    ],
+    experience: [
+      {
+        name: 'Resolver',
+        description: 'Full-Stack Developer, March 2020 - Present',
+        link: 'https://www.resolver.com/',
+      },
+      {
+        name: 'Ambyint',
+        description: 'Full-Stack Developer, September 2018 - March 2020',
+        link: 'https://ambyint.com/',
+      },
+      {
+        name: 'Bank of Canada',
+        description: 'Full-Stack Developer, May 2015 - September 2018',
+        link: 'https://bankofcanada.ca/',
+      },
+    ],
+    skills: [
+      {
+        name: 'Languages & Frameworks',
+        description:
+          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+      },
+      {
+        name: 'Databases',
+        description: 'MongoDB, PostreSQL, MySQL',
+      },
+      {
+        name: 'Other',
+        description:
+          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -46,21 +121,22 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#3586EA`,
-        theme_color: `#3586EA`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
