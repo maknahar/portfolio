@@ -30,8 +30,7 @@ const Layout = ({ children }) => {
               y="0"
               width="4"
               height="4"
-              className="text-gray-200"
-              fill="#edf2f7"
+              fill="rgba(52, 134, 235, 0.2)"
             />
           </pattern>
         </defs>
