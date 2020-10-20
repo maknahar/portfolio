@@ -7,9 +7,10 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const classes = {
-  wrapper: 'mt-16 blog-content',
+  wrapper: 'mt-8 blog-content',
   title: 'mt-16 text-4xl text-gray-900 font-bold',
   date: 'text-gray-600 font-light',
+  hr: 'mt-8 max-w-150 border-t-2'
 };
 
 const BlogPost = ({ data }) => {
@@ -23,6 +24,7 @@ const BlogPost = ({ data }) => {
       <p className={classes.date}>
         Posted on {moment(post.frontmatter.date).format('MMMM D, YYYY')}
       </p>
+      <hr className={classes.hr}/>
       <div
         className={classes.wrapper}
         dangerouslySetInnerHTML={{ __html: post.html }}

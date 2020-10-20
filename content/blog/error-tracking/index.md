@@ -1,7 +1,7 @@
 ---
 title: Error Tracking in Chrome Extensions
 date: '2020-09-20T12:00:00.00Z'
-description: 'How to Track and Fix Errors that Occur in Chrome Extensions'
+description: 'How to track and fix errors that occur in Chrome extensions'
 ---
 
 _Note: I originally published this article on [ChromeExtensionKit](https://ChromeExtensionKit.com)._

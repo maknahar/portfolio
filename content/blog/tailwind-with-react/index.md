@@ -1,7 +1,7 @@
 ---
-title: Tailwind Setup and Design Patterns in React
+title: 'Tailwind + React: Setup and Design Patterns'
 date: '2020-10-19T12:00:00.00Z'
-description: 'How to setup and use Tailwind CSS in React Apps'
+description: 'How to setup and use Tailwind CSS in React apps'
 ---
 
 You can find all source code for this post in a starter template [here](https://github.com/RyanFitzgerald/react-tailwind-starter).

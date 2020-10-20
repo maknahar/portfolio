@@ -5,7 +5,7 @@ module.exports = {
     name: 'Ryan Fitzgerald',
     title: `Ryan Fitzgerald | Full-Stack Developer`,
     description: `Full-Stack Developer based in Toronto, Canada.`,
-    about: `I'm a motivated full-stack engineer who has experience building and scaling web applications and services in various domains. I'm also passionate about open source contributions, working in high impact environments, and helping growing development teams build great products.`,
+    about: `I'm a motivated full-stack engineer who has experience building and scaling web applications and services in various domains. I'm also passionate about open-source contributions, working in high impact environments, and helping growing development teams build great products.`,
     author: `@rfitzio`,
     github: `https://github.com/ryanfitzgerald`,
     linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
@@ -127,7 +127,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-54210715-4`,
       },
     },
     {
