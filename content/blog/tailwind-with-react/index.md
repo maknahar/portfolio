@@ -198,7 +198,7 @@ const AdvancedComponent = () => {
       </p>
       <button
         className={clsx([classes.button, active && classes.buttonActive])}
-        onClick={() => setActive(!active)}
+        onClick={() => setActive((prevState) => !prevState)}
       >
         Click Me
       </button>
