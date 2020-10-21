@@ -6,7 +6,7 @@ import React from 'react';
 
 import socialSrc from '../../images/social.jpg';
 
-const SEO = ({ description, lang, meta, title }) => {
+const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -35,10 +35,14 @@ const SEO = ({ description, lang, meta, title }) => {
           }}
           title={finalTitle}
           link={[
-            {
-              rel: `canonical`,
-              href: site.siteMetadata.siteUrl + location.pathname
-            },
+            ...(!skipCanonical
+              ? [
+                  {
+                    rel: `canonical`,
+                    href: site.siteMetadata.siteUrl + location.pathname,
+                  },
+                ]
+              : []),
           ].concat()}
           meta={[
             {
