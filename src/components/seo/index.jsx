@@ -4,8 +4,6 @@ import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import socialSrc from '../../images/social.jpg';
-
 const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -25,6 +23,7 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
   const finalTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
+  const url = site.siteMetadata.siteUrl + location.pathname;
 
   return (
     <Location>
@@ -39,7 +38,7 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
               ? [
                   {
                     rel: `canonical`,
-                    href: site.siteMetadata.siteUrl + location.pathname,
+                    href: url,
                   },
                 ]
               : []),
@@ -51,11 +50,11 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
             },
             {
               property: `og:title`,
-              content: finalTitle,
+              content: title || defaultTitle,
             },
             {
               property: `og:image`,
-              content: `https://rfitz.io${socialSrc}`,
+              content: `https://public.previewbolt.com/generate?url=${url}`,
             },
             {
               property: `og:description`,
@@ -75,7 +74,7 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
             },
             {
               property: `twitter:title`,
-              content: finalTitle,
+              content: title || defaultTitle,
             },
             {
               property: `twitter:description`,
