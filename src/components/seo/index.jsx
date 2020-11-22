@@ -67,7 +67,7 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
             },
             {
               property: `twitter:card`,
-              content: `summary`,
+              content: `summary_large_image`,
             },
             {
               property: `twitter:creator`,
