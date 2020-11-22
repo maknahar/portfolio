@@ -23,7 +23,6 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
   const finalTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
-  const url = site.siteMetadata.siteUrl + location.pathname;
 
   return (
     <Location>
@@ -38,7 +37,7 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
               ? [
                   {
                     rel: `canonical`,
-                    href: url,
+                    href: site.siteMetadata.siteUrl + location.pathname,
                   },
                 ]
               : []),
@@ -54,7 +53,9 @@ const SEO = ({ description, lang, meta, title, skipCanonical = false }) => {
             },
             {
               property: `og:image`,
-              content: `https://public.previewbolt.com/generate?url=${url}`,
+              content: `https://public.previewbolt.com/generate?url=${
+                site.siteMetadata.siteUrl + location.pathname
+              }`,
             },
             {
               property: `og:description`,
