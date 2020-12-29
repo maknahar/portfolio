@@ -17,15 +17,9 @@ module.exports = {
         link: 'https://chromeextensionkit.com/?ref=portfolio',
       },
       {
-        name: 'GamePressKit',
+        name: 'Pivalink (Sold)',
         description:
-          'All-in-one tool to build and manage press kits for games with no code required',
-        link: 'https://gamepresskit.com/',
-      },
-      {
-        name: 'Pivalink',
-        description:
-          'Tool to create microlanding pages that can be easily updated and customized to fit any brand (Acquired)',
+          'Tool to create microlanding pages that can be easily updated and customized to fit any brand',
         link: 'https://pivalink.com/',
       },
       {
