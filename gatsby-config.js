@@ -32,7 +32,7 @@ module.exports = {
         name: 'Dev Blog',
         description:
           'An open-source and minimal personal blog template for developers built with Gatsby and React',
-        link: 'hhttps://github.com/RyanFitzgerald/devblog',
+        link: 'https://github.com/RyanFitzgerald/devblog',
       },
       {
         name: 'Dev Portfolio',
