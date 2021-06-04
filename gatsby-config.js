@@ -20,6 +20,7 @@ module.exports = {
         name: 'Pivalink (Sold)',
         description:
           'Tool to create microlanding pages that can be easily updated and customized to fit any brand',
+        link: false,
       },
       {
         name: 'Coursefacts',
