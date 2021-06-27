@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/portfolio",
   siteMetadata: {
     siteUrl: 'https://maknahar.github.io/portfolio',
     blogEnabled: true,
