@@ -25,12 +25,14 @@ module.exports = {
       },
       {
         name: "Vembu Virtual Drive",
-        description: "Designed and implemented Vembu Virtual drive. Implemented reads/write using VHFS. Same backup can support all numerous hypervisor like KVM, HyperV, VMWare Player etc. Fully implemented in golang."
+        description: "Designed and implemented Vembu Virtual drive. Implemented reads/write using VHFS. Same backup can support all numerous hypervisor like KVM, HyperV, VMWare Player etc. Fully implemented in golang.",
+        link: '',
       },
       {
         name: "Vembu Virtual Machine Backup",
-        description: "Designed and implemented Vembu file backup from scratch. Implemented numerous features like De-duplication, Wan acceleration, inline compression and encryption etc. Resulting product's performance is two times existing file backup. Product is fully implemented in golang."
-      }
+        description: "Designed and implemented Vembu file backup from scratch. Implemented numerous features like De-duplication, Wan acceleration, inline compression and encryption etc. Resulting product's performance is two times existing file backup. Product is fully implemented in golang.",
+        link: '',
+      },
     ],
     experience: [
       {
