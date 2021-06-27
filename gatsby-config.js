@@ -13,31 +13,48 @@ module.exports = {
     projects: [
       {
         name: 'Qube Wire',
-        description: 'Project description',
+        description: 'Qube Wire is a self-service, single-window system for global theatrical distribution. With a simple but comprehensive user interface, distributors can manage their digital cinema assets, assign territorial rights for their content and have their Digital Cinema Packages (DCPs) and keys (aka Key Delivery Messages or KDMs) delivered to movie theatres across the world. Theatres can manage their own digital cinema device details and access their Universal Inbox on the Qube Wire service as well.',
         link: 'https://www.qubewire.com',
       },
+      {
+        name: 'Justickets',
+        description: 'Justickets is a smart, modern and intuitive online platform that helps fans buy tickets for movies in several cities across India. In addition to ticket sales aggregation, Justickets gives users the power of information. Thanks to integration with Moviebuff, India’s largest database of movies releasing in the country, Justickets gives moviegoers access to reviews, ratings, movie information as well as the latest trailers, posters and trivia, making the process of buying tickets online more fun and meaningful.' +
+            '' +
+            'Justickets is available across platforms: on web, mobile and tablet, allowing users to purchase tickets from wherever they are - the experience of buying tickets is no longer restricted to the box office or home computer.',
+        link: 'https://www.justickets.in',
+      }
     ],
     experience: [
       {
-        name: 'SMTS',
+        name: 'Senior Member of Technical Staff - Security R&D',
         description: 'Salesforce, March 2021 - Present',
         link: 'https://www.salesforce.com/',
+      },
+      {
+        name: 'Engineering Lead - Development',
+        description: 'Qube Cinema Technologies, September 2015 - February 2021',
+        link: 'https://www.qubecinema.com/',
+      },
+      {
+        name: 'Software Engineer',
+        description: 'Vembu Technologies, December 2013 – September 2015',
+        link: 'https://www.qubecinema.com/',
       },
     ],
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, React, Ruby on Rails',
+          'Golang, React, Python, JavaScript (ES6+), Node.js, Ruby on Rails',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, PostreSQL, MySQL, Redis, DynamoDB',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Amazon Web Services (AWS), Docker, CI / CD, Microservices, API design, Agile / Scrum',
       },
     ],
   },
