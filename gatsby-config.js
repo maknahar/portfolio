@@ -48,7 +48,19 @@ module.exports = {
       {
         name: 'Software Engineer',
         description: 'Vembu Technologies, December 2013 – September 2015',
+        link: 'https://www.vembu.com/',
+      },
+    ],
+    education: [
+      {
+        name: 'Master of Technology - Data Science',
+        description: 'Birla Institute of Technology and Science, Pilani, India (BITS)',
         link: 'https://www.qubecinema.com/',
+      },
+      {
+        name: 'Bachelor of Technology - Computer Science and Engineering',
+        description: 'SRM University, Kattankulathur, India',
+        link: 'https://www.bits-pilani.ac.in/',
       },
     ],
     skills: [
