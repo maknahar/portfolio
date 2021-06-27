@@ -14,6 +14,8 @@ const SectionEducation = ({ education }) => {
                     name={item.name}
                     description={item.description}
                     link={item.link}
+                    logo={item.logo}
+                    timeline={item.timeline}
                 />
             ))}
         </Section>

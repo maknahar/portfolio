@@ -57,16 +57,21 @@ export const pageQuery = graphql`
           name
           description
           link
+          logo
         }
         experience {
           name
           description
           link
+          logo
+          timeline
         }
         education {
           name
           description
           link
+          logo
+          timeline
         }
         skills {
           name

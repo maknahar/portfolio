@@ -1,4 +1,4 @@
-import { Link } from 'gatsby';
+import {Link} from 'gatsby';
 import React from 'react';
 
 const classes = {
@@ -7,7 +7,8 @@ const classes = {
   description: 'text-md text-gray-600 font-light',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false }) => {
+const SummaryItem = ({name, description, link = false,
+                       internal = false, logo = false, timeline=false}) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
@@ -24,7 +25,13 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
       >
         {link ? linkContent : name}
       </h3>
-      <p className={classes.description}>{description}</p>
+      <p className={classes.description}>
+        {logo ? <img src={logo} width='75px' style={{display: "inline", paddingRight: '10px'}} alt='logo'/> : null}
+        {description}
+      </p>
+      <p className={classes.description}>
+        {timeline ? timeline : null}
+      </p>
     </div>
   );
 };
