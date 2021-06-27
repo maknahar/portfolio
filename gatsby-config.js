@@ -1,68 +1,33 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://rfitz.io',
+    siteUrl: 'https://maknahar.github.io/portfolio',
     blogEnabled: true,
-    name: 'Ryan Fitzgerald',
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
-    description: `Full-Stack Developer based in Toronto, Canada.`,
-    about: `I'm a motivated full-stack engineer who has experience building and scaling web applications and services in various domains. I'm also passionate about open-source contributions, working in high impact environments, and helping growing development teams build great products.`,
-    author: `@rfitzio`,
-    github: `https://github.com/ryanfitzgerald`,
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    name: 'Mayank Patel',
+    title: `Mayank Patel | Cyber security Engineers`,
+    description: `Cyber security Engineers based in India.`,
+    about: `I'm a motivated Cyber security Engineers who has experience building and scaling web applications and services in various domains. I'm also passionate about open-source contributions, working in high impact environments, and helping growing development teams build great products.`,
+    author: `@maknahar`,
+    github: `https://github.com/maknahar`,
+    linkedin: `https://www.linkedin.com/in/maknahar/`,
     projects: [
       {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=portfolio',
-      },
-      {
-        name: 'Pivalink (Sold)',
-        description:
-          'Tool to create microlanding pages that can be easily updated and customized to fit any brand',
-        link: '',
-      },
-      {
-        name: 'Coursefacts',
-        description:
-          'A platform where students can read and write university / college course reviews anonymously',
-        link: 'https://coursefacts.com/',
-      },
-      {
-        name: 'Dev Blog',
-        description:
-          'An open-source and minimal personal blog template for developers built with Gatsby and React',
-        link: 'https://github.com/RyanFitzgerald/devblog',
-      },
-      {
-        name: 'Dev Portfolio',
-        description:
-          'An open source and customizable single-page personal portfolio template for developers',
-        link: 'https://github.com/RyanFitzgerald/devportfolio',
+        name: 'Qube Wire',
+        description: 'Project description',
+        link: 'https://www.qubewire.com',
       },
     ],
     experience: [
       {
-        name: 'Resolver',
-        description: 'Full-Stack Developer, March 2020 - Present',
-        link: 'https://www.resolver.com/',
-      },
-      {
-        name: 'Ambyint',
-        description: 'Full-Stack Developer, September 2018 - March 2020',
-        link: 'https://ambyint.com/',
-      },
-      {
-        name: 'Bank of Canada',
-        description: 'Full-Stack Developer, May 2015 - September 2018',
-        link: 'https://bankofcanada.ca/',
+        name: 'SMTS',
+        description: 'Salesforce, March 2021 - Present',
+        link: 'https://www.salesforce.com/',
       },
     ],
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Golang, Node.js, React, Ruby on Rails',
       },
       {
         name: 'Databases',
@@ -127,8 +92,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ryan-fitzgerald`,
-        short_name: `rfitz`,
+        name: `mayank-patel`,
+        short_name: `maknahar`,
         start_url: `/`,
         background_color: `#3486eb`,
         theme_color: `#3486eb`,
