@@ -22,6 +22,14 @@ module.exports = {
             '' +
             'Justickets is available across platforms: on web, mobile and tablet, allowing users to purchase tickets from wherever they are - the experience of buying tickets is no longer restricted to the box office or home computer.',
         link: 'https://www.justickets.in',
+      },
+      {
+        name: "Vembu Virtual Drive",
+        description: "Designed and implemented Vembu Virtual drive. Implemented reads/write using VHFS. Same backup can support all numerous hypervisor like KVM, HyperV, VMWare Player etc. Fully implemented in golang."
+      },
+      {
+        name: "Vembu Virtual Machine Backup",
+        description: "Designed and implemented Vembu file backup from scratch. Implemented numerous features like De-duplication, Wan acceleration, inline compression and encryption etc. Resulting product's performance is two times existing file backup. Product is fully implemented in golang."
       }
     ],
     experience: [
