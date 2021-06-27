@@ -22,7 +22,6 @@ To view a live demo, [click here](https://maknahar.github.io/portfolio/).
 * [Creating New Posts](#creating-new-posts)
 * [Deploying](#deploying)
 * [Changelog](#changelog)
-* [License](#license)
 
 ## Setup and Configuration
 
@@ -150,7 +149,3 @@ The options outlined above are not the only options available to you to deploy t
 ### 2.0.0
 * Upgrade to Gatsby 2.0.31 (Big thanks to [ttristan](https://github.com/ttristan) for the help)
 * Remove deprecated functions
-
-## License
-
-Licensed under MIT License. See [LICENSE.md](LICENSE.md) for more.

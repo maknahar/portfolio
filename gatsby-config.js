@@ -55,12 +55,12 @@ module.exports = {
       {
         name: 'Master of Technology - Data Science',
         description: 'Birla Institute of Technology and Science, Pilani, India (BITS)',
-        link: 'https://www.qubecinema.com/',
+        link: 'https://www.bits-pilani.ac.in/',
       },
       {
         name: 'Bachelor of Technology - Computer Science and Engineering',
         description: 'SRM University, Kattankulathur, India',
-        link: 'https://www.bits-pilani.ac.in/',
+        link: 'https://srmuniv.ac.in/',
       },
     ],
     skills: [
